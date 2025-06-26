@@ -1,0 +1,6 @@
+{
+  "usernames": ["johndoe", "janedoe"],
+  "output": "hasil.json",
+  "progress": true,
+  "only_found": false
+}

@@ -1,0 +1,930 @@
+{
+  "johndoe": [
+    {
+      "platform": "TikTok",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.tiktok.com/@johndoe",
+      "message": "Username tidak ditemukan di TikTok"
+    },
+    {
+      "platform": "GitHub",
+      "status": "Tidak Terdaftar",
+      "url": "https://github.com/johndoe",
+      "message": "Username tidak ditemukan di GitHub"
+    },
+    {
+      "platform": "Behance",
+      "status": "Terdaftar",
+      "url": "https://www.behance.net/johndoe",
+      "message": "Username ditemukan di Behance"
+    },
+    {
+      "platform": "Vimeo",
+      "status": "Tidak Terdaftar",
+      "url": "https://vimeo.com/johndoe",
+      "message": "Username tidak ditemukan di Vimeo"
+    },
+    {
+      "platform": "Facebook",
+      "status": "Tidak Diketahui",
+      "url": "https://facebook.com/johndoe",
+      "message": "Status HTTP: 400"
+    },
+    {
+      "platform": "SoundCloud",
+      "status": "Tidak Terdaftar",
+      "url": "https://soundcloud.com/johndoe",
+      "message": "Username tidak ditemukan di SoundCloud"
+    },
+    {
+      "platform": "Snapchat",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.snapchat.com/add/johndoe",
+      "message": "Username tidak ditemukan di Snapchat"
+    },
+    {
+      "platform": "LinkedIn",
+      "status": "Tidak Diketahui",
+      "url": "https://www.linkedin.com/in/johndoe",
+      "message": "Status HTTP: 999"
+    },
+    {
+      "platform": "ProductHunt",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.producthunt.com/@johndoe",
+      "message": "Username tidak ditemukan di ProductHunt"
+    },
+    {
+      "platform": "YouTube",
+      "status": "Tidak Terdaftar",
+      "url": "https://youtube.com/@johndoe",
+      "message": "Username tidak ditemukan di YouTube"
+    },
+    {
+      "platform": "Steam",
+      "status": "Terdaftar",
+      "url": "https://steamcommunity.com/id/johndoe",
+      "message": "Username ditemukan di Steam"
+    },
+    {
+      "platform": "Twitter",
+      "status": "Tidak Terdaftar",
+      "url": "https://twitter.com/johndoe",
+      "message": "Username tidak ditemukan di Twitter"
+    },
+    {
+      "platform": "Reddit",
+      "status": "Terdaftar",
+      "url": "https://www.reddit.com/user/johndoe",
+      "message": "Username ditemukan di Reddit"
+    },
+    {
+      "platform": "Dribbble",
+      "status": "Tidak Diketahui",
+      "url": "https://dribbble.com/johndoe",
+      "message": "Status HTTP: 403"
+    },
+    {
+      "platform": "Medium",
+      "status": "Terdaftar",
+      "url": "https://medium.com/@johndoe",
+      "message": "Username ditemukan di Medium"
+    },
+    {
+      "platform": "DeviantArt",
+      "status": "Tidak Terdaftar",
+      "url": "https://deviantart.com/johndoe",
+      "message": "Username tidak ditemukan di DeviantArt"
+    },
+    {
+      "platform": "Quora",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.quora.com/profile/johndoe",
+      "message": "Username tidak ditemukan di Quora"
+    },
+    {
+      "platform": "Kaggle",
+      "status": "Terdaftar",
+      "url": "https://www.kaggle.com/johndoe",
+      "message": "Username ditemukan di Kaggle"
+    },
+    {
+      "platform": "Pinterest",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.pinterest.com/johndoe",
+      "message": "Username tidak ditemukan di Pinterest"
+    },
+    {
+      "platform": "Instagram",
+      "status": "Tidak Terdaftar",
+      "url": "https://instagram.com/johndoe",
+      "message": "Username tidak ditemukan di Instagram"
+    },
+    {
+      "platform": "StackOverflow",
+      "status": "Tidak Terdaftar",
+      "url": "https://stackoverflow.com/users/johndoe",
+      "message": "Username tidak ditemukan di StackOverflow"
+    },
+    {
+      "platform": "WordPress",
+      "status": "Tidak Terdaftar",
+      "url": "https://johndoe.wordpress.com",
+      "message": "Username tidak ditemukan di WordPress"
+    },
+    {
+      "platform": "500px",
+      "status": "Terdaftar",
+      "url": "https://500px.com/johndoe",
+      "message": "Username ditemukan di 500px"
+    },
+    {
+      "platform": "TripAdvisor",
+      "status": "Tidak Diketahui",
+      "url": "https://tripadvisor.com/members/johndoe",
+      "message": "Status HTTP: 403"
+    },
+    {
+      "platform": "Mixcloud",
+      "status": "Terdaftar",
+      "url": "https://www.mixcloud.com/johndoe",
+      "message": "Username ditemukan di Mixcloud"
+    },
+    {
+      "platform": "Tumblr",
+      "status": "Tidak Terdaftar",
+      "url": "https://johndoe.tumblr.com",
+      "message": "Username tidak ditemukan di Tumblr"
+    },
+    {
+      "platform": "Flickr",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.flickr.com/people/johndoe",
+      "message": "Username tidak ditemukan di Flickr"
+    },
+    {
+      "platform": "Codepen",
+      "status": "Tidak Diketahui",
+      "url": "https://codepen.io/johndoe",
+      "message": "Status HTTP: 403"
+    },
+    {
+      "platform": "Blogspot",
+      "status": "Tidak Terdaftar",
+      "url": "https://johndoe.blogspot.com",
+      "message": "Username tidak ditemukan di Blogspot"
+    },
+    {
+      "platform": "Patreon",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.patreon.com/johndoe",
+      "message": "Username tidak ditemukan di Patreon"
+    },
+    {
+      "platform": "DetikForum",
+      "status": "Tidak Diketahui",
+      "url": "https://forum.detik.com/member.php?username=johndoe",
+      "message": "Gagal cek DetikForum: DNS resolution failed"
+    },
+    {
+      "platform": "Letterboxd",
+      "status": "Terdaftar",
+      "url": "https://letterboxd.com/johndoe",
+      "message": "Username ditemukan di Letterboxd"
+    },
+    {
+      "platform": "Fiverr",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.fiverr.com/johndoe",
+      "message": "Username tidak ditemukan di Fiverr"
+    },
+    {
+      "platform": "Bandcamp",
+      "status": "Tidak Terdaftar",
+      "url": "https://bandcamp.com/johndoe",
+      "message": "Username tidak ditemukan di Bandcamp"
+    },
+    {
+      "platform": "Upwork",
+      "status": "Tidak Diketahui",
+      "url": "https://www.upwork.com/freelancers/~johndoe",
+      "message": "Status HTTP: 403"
+    },
+    {
+      "platform": "Wattpad",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.wattpad.com/user/johndoe",
+      "message": "Username tidak ditemukan di Wattpad"
+    },
+    {
+      "platform": "VK",
+      "status": "Tidak Terdaftar",
+      "url": "https://vk.com/johndoe",
+      "message": "Username tidak ditemukan di VK"
+    },
+    {
+      "platform": "Freelancer",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.freelancer.com/u/johndoe",
+      "message": "Username tidak ditemukan di Freelancer"
+    },
+    {
+      "platform": "Kaskus",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.kaskus.co.id/profile/johndoe",
+      "message": "Username tidak ditemukan di Kaskus"
+    },
+    {
+      "platform": "Chess.com",
+      "status": "Terdaftar",
+      "url": "https://www.chess.com/member/johndoe",
+      "message": "Username ditemukan di Chess.com"
+    },
+    {
+      "platform": "Canva",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.canva.com/johndoe",
+      "message": "Username tidak ditemukan di Canva"
+    },
+    {
+      "platform": "Scribd",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.scribd.com/johndoe",
+      "message": "Username tidak ditemukan di Scribd"
+    },
+    {
+      "platform": "Replit",
+      "status": "Tidak Terdaftar",
+      "url": "https://replit.com/@johndoe",
+      "message": "Username tidak ditemukan di Replit"
+    },
+    {
+      "platform": "Roblox",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.roblox.com/users/johndoe/profile",
+      "message": "Username tidak ditemukan di Roblox"
+    },
+    {
+      "platform": "Indowebster",
+      "status": "Tidak Diketahui",
+      "url": "https://forum.indowebster.com/member.php?username=johndoe",
+      "message": "Gagal cek Indowebster: DNS resolution failed"
+    },
+    {
+      "platform": "Bukalapak",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.bukalapak.com/u/johndoe",
+      "message": "Username tidak ditemukan di Bukalapak"
+    },
+    {
+      "platform": "IDN Times",
+      "status": "Tidak Terdaftar",
+      "url": "https://community.idntimes.com/johndoe",
+      "message": "Username tidak ditemukan di IDN Times"
+    },
+    {
+      "platform": "Jualo",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.jualo.com/user/johndoe",
+      "message": "Username tidak ditemukan di Jualo"
+    },
+    {
+      "platform": "Kompas Forum",
+      "status": "Tidak Diketahui",
+      "url": "https://forum.kompas.com/member.php?username=johndoe",
+      "message": "Gagal cek Kompas Forum: DNS resolution failed"
+    },
+    {
+      "platform": "Kompasiana",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.kompasiana.com/johndoe",
+      "message": "Username tidak ditemukan di Kompasiana"
+    },
+    {
+      "platform": "Shopee",
+      "status": "Tidak Terdaftar",
+      "url": "https://shopee.co.id/johndoe",
+      "message": "Username tidak ditemukan di Shopee"
+    },
+    {
+      "platform": "BuyMeACoffee",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.buymeacoffee.com/johndoe",
+      "message": "Username tidak ditemukan di BuyMeACoffee"
+    },
+    {
+      "platform": "Badoo",
+      "status": "Terdaftar",
+      "url": "https://badoo.com/profile/johndoe",
+      "message": "Username ditemukan di Badoo"
+    },
+    {
+      "platform": "Brainly",
+      "status": "Tidak Diketahui",
+      "url": "https://brainly.co.id/profil/johndoe",
+      "message": "Status HTTP: 403"
+    },
+    {
+      "platform": "Mastodon.id",
+      "status": "Terdaftar",
+      "url": "https://mastodon.id/@johndoe",
+      "message": "Username ditemukan di Mastodon.id"
+    },
+    {
+      "platform": "Goodreads",
+      "status": "Terdaftar",
+      "url": "https://www.goodreads.com/johndoe",
+      "message": "Username ditemukan di Goodreads"
+    },
+    {
+      "platform": "CodePolitan",
+      "status": "Terdaftar",
+      "url": "https://www.codepolitan.com/johndoe",
+      "message": "Username ditemukan di CodePolitan"
+    },
+    {
+      "platform": "Tokopedia",
+      "status": "Terdaftar",
+      "url": "https://www.tokopedia.com/johndoe",
+      "message": "Username ditemukan di Tokopedia"
+    },
+    {
+      "platform": "Kumparan",
+      "status": "Tidak Terdaftar",
+      "url": "https://kumparan.com/johndoe",
+      "message": "Username tidak ditemukan di Kumparan"
+    },
+    {
+      "platform": "Dicoding",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.dicoding.com/users/johndoe",
+      "message": "Username tidak ditemukan di Dicoding"
+    },
+    {
+      "platform": "Ruangguru",
+      "status": "Tidak Terdaftar",
+      "url": "https://ruangguru.com/johndoe",
+      "message": "Username tidak ditemukan di Ruangguru"
+    },
+    {
+      "platform": "Zenius",
+      "status": "Tidak Terdaftar",
+      "url": "https://zenius.net/profile/johndoe",
+      "message": "Username tidak ditemukan di Zenius"
+    },
+    {
+      "platform": "Mamikos",
+      "status": "Tidak Terdaftar",
+      "url": "https://mamikos.com/profil/johndoe",
+      "message": "Username tidak ditemukan di Mamikos"
+    },
+    {
+      "platform": "Viva.co.id",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.viva.co.id/arsip/johndoe",
+      "message": "Username tidak ditemukan di Viva.co.id"
+    },
+    {
+      "platform": "KasKus Lounge",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.kaskus.co.id/profile/johndoe",
+      "message": "Username tidak ditemukan di KasKus Lounge"
+    },
+    {
+      "platform": "KaryaKarsa",
+      "status": "Tidak Terdaftar",
+      "url": "https://karyakarsa.com/johndoe",
+      "message": "Username tidak ditemukan di KaryaKarsa"
+    },
+    {
+      "platform": "Sociabuzz",
+      "status": "Terdaftar",
+      "url": "https://sociabuzz.com/johndoe",
+      "message": "Username ditemukan di Sociabuzz"
+    },
+    {
+      "platform": "Qiscus",
+      "status": "Tidak Terdaftar",
+      "url": "https://qiscus.com/johndoe",
+      "message": "Username tidak ditemukan di Qiscus"
+    },
+    {
+      "platform": "Storial",
+      "status": "Tidak Diketahui",
+      "url": "https://storial.co/johndoe",
+      "message": "Gagal cek Storial: HTTPSConnectionPool(host='storial.co', port=443): Max retries exceeded with url: /johndoe (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x79071c293500>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+    },
+    {
+      "platform": "Vidio",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.vidio.com/users/johndoe",
+      "message": "Username tidak ditemukan di Vidio"
+    },
+    {
+      "platform": "Hipwee",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.hipwee.com/author/johndoe",
+      "message": "Username tidak ditemukan di Hipwee"
+    },
+    {
+      "platform": "Blogger",
+      "status": "Tidak Diketahui",
+      "url": "https://www.blogger.com/profile/johndoe",
+      "message": "Status HTTP: 400"
+    },
+    {
+      "platform": "Twitch",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.twitch.tv/johndoe",
+      "message": "Username tidak ditemukan di Twitch"
+    },
+    {
+      "platform": "IDN Media",
+      "status": "Tidak Terdaftar",
+      "url": "https://idn.media/user/johndoe",
+      "message": "Username tidak ditemukan di IDN Media"
+    },
+    {
+      "platform": "OLX",
+      "status": "Tidak Diketahui",
+      "url": "https://www.olx.co.id/profile/johndoe",
+      "message": "Gagal cek OLX: HTTPSConnectionPool(host='www.olx.co.id', port=443): Read timed out. (read timeout=5)"
+    },
+    {
+      "platform": "Komunitas Bukalapak",
+      "status": "Tidak Diketahui",
+      "url": "https://komunitas.bukalapak.com/u/johndoe",
+      "message": "Gagal cek Komunitas Bukalapak: HTTPSConnectionPool(host='komunitas.bukalapak.com', port=443): Read timed out. (read timeout=5)"
+    },
+    {
+      "platform": "Komikcast",
+      "status": "Tidak Diketahui",
+      "url": "https://komikcast.com/user/johndoe",
+      "message": "Gagal cek Komikcast: Terlalu banyak redirect"
+    }
+  ],
+  "janedoe": [
+    {
+      "platform": "Snapchat",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.snapchat.com/add/janedoe",
+      "message": "Username tidak ditemukan di Snapchat"
+    },
+    {
+      "platform": "TikTok",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.tiktok.com/@janedoe",
+      "message": "Username tidak ditemukan di TikTok"
+    },
+    {
+      "platform": "Twitch",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.twitch.tv/janedoe",
+      "message": "Username tidak ditemukan di Twitch"
+    },
+    {
+      "platform": "YouTube",
+      "status": "Tidak Terdaftar",
+      "url": "https://youtube.com/@janedoe",
+      "message": "Username tidak ditemukan di YouTube"
+    },
+    {
+      "platform": "Behance",
+      "status": "Terdaftar",
+      "url": "https://www.behance.net/janedoe",
+      "message": "Username ditemukan di Behance"
+    },
+    {
+      "platform": "Vimeo",
+      "status": "Tidak Terdaftar",
+      "url": "https://vimeo.com/janedoe",
+      "message": "Username tidak ditemukan di Vimeo"
+    },
+    {
+      "platform": "Steam",
+      "status": "Terdaftar",
+      "url": "https://steamcommunity.com/id/janedoe",
+      "message": "Username ditemukan di Steam"
+    },
+    {
+      "platform": "Twitter",
+      "status": "Tidak Terdaftar",
+      "url": "https://twitter.com/janedoe",
+      "message": "Username tidak ditemukan di Twitter"
+    },
+    {
+      "platform": "LinkedIn",
+      "status": "Tidak Diketahui",
+      "url": "https://www.linkedin.com/in/janedoe",
+      "message": "Status HTTP: 999"
+    },
+    {
+      "platform": "ProductHunt",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.producthunt.com/@janedoe",
+      "message": "Username tidak ditemukan di ProductHunt"
+    },
+    {
+      "platform": "GitHub",
+      "status": "Tidak Terdaftar",
+      "url": "https://github.com/janedoe",
+      "message": "Username tidak ditemukan di GitHub"
+    },
+    {
+      "platform": "Dribbble",
+      "status": "Tidak Diketahui",
+      "url": "https://dribbble.com/janedoe",
+      "message": "Status HTTP: 403"
+    },
+    {
+      "platform": "Kaggle",
+      "status": "Terdaftar",
+      "url": "https://www.kaggle.com/janedoe",
+      "message": "Username ditemukan di Kaggle"
+    },
+    {
+      "platform": "StackOverflow",
+      "status": "Tidak Terdaftar",
+      "url": "https://stackoverflow.com/users/janedoe",
+      "message": "Username tidak ditemukan di StackOverflow"
+    },
+    {
+      "platform": "Facebook",
+      "status": "Tidak Terdaftar",
+      "url": "https://facebook.com/janedoe",
+      "message": "Username tidak ditemukan di Facebook"
+    },
+    {
+      "platform": "DeviantArt",
+      "status": "Tidak Terdaftar",
+      "url": "https://deviantart.com/janedoe",
+      "message": "Username tidak ditemukan di DeviantArt"
+    },
+    {
+      "platform": "Reddit",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.reddit.com/user/janedoe",
+      "message": "Username tidak ditemukan di Reddit"
+    },
+    {
+      "platform": "Medium",
+      "status": "Tidak Terdaftar",
+      "url": "https://medium.com/@janedoe",
+      "message": "Username tidak ditemukan di Medium"
+    },
+    {
+      "platform": "Quora",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.quora.com/profile/janedoe",
+      "message": "Username tidak ditemukan di Quora"
+    },
+    {
+      "platform": "Instagram",
+      "status": "Tidak Terdaftar",
+      "url": "https://instagram.com/janedoe",
+      "message": "Username tidak ditemukan di Instagram"
+    },
+    {
+      "platform": "WordPress",
+      "status": "Tidak Terdaftar",
+      "url": "https://janedoe.wordpress.com",
+      "message": "Username tidak ditemukan di WordPress"
+    },
+    {
+      "platform": "Flickr",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.flickr.com/people/janedoe",
+      "message": "Username tidak ditemukan di Flickr"
+    },
+    {
+      "platform": "Pinterest",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.pinterest.com/janedoe",
+      "message": "Username tidak ditemukan di Pinterest"
+    },
+    {
+      "platform": "500px",
+      "status": "Terdaftar",
+      "url": "https://500px.com/janedoe",
+      "message": "Username ditemukan di 500px"
+    },
+    {
+      "platform": "Blogspot",
+      "status": "Tidak Terdaftar",
+      "url": "https://janedoe.blogspot.com",
+      "message": "Username tidak ditemukan di Blogspot"
+    },
+    {
+      "platform": "Codepen",
+      "status": "Tidak Diketahui",
+      "url": "https://codepen.io/janedoe",
+      "message": "Status HTTP: 403"
+    },
+    {
+      "platform": "Mixcloud",
+      "status": "Terdaftar",
+      "url": "https://www.mixcloud.com/janedoe",
+      "message": "Username ditemukan di Mixcloud"
+    },
+    {
+      "platform": "Letterboxd",
+      "status": "Terdaftar",
+      "url": "https://letterboxd.com/janedoe",
+      "message": "Username ditemukan di Letterboxd"
+    },
+    {
+      "platform": "Tumblr",
+      "status": "Tidak Terdaftar",
+      "url": "https://janedoe.tumblr.com",
+      "message": "Username tidak ditemukan di Tumblr"
+    },
+    {
+      "platform": "DetikForum",
+      "status": "Tidak Diketahui",
+      "url": "https://forum.detik.com/member.php?username=janedoe",
+      "message": "Gagal cek DetikForum: DNS resolution failed"
+    },
+    {
+      "platform": "Upwork",
+      "status": "Tidak Diketahui",
+      "url": "https://www.upwork.com/freelancers/~janedoe",
+      "message": "Status HTTP: 403"
+    },
+    {
+      "platform": "Fiverr",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.fiverr.com/janedoe",
+      "message": "Username tidak ditemukan di Fiverr"
+    },
+    {
+      "platform": "Freelancer",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.freelancer.com/u/janedoe",
+      "message": "Username tidak ditemukan di Freelancer"
+    },
+    {
+      "platform": "Bandcamp",
+      "status": "Tidak Terdaftar",
+      "url": "https://bandcamp.com/janedoe",
+      "message": "Username tidak ditemukan di Bandcamp"
+    },
+    {
+      "platform": "Kaskus",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.kaskus.co.id/profile/janedoe",
+      "message": "Username tidak ditemukan di Kaskus"
+    },
+    {
+      "platform": "Wattpad",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.wattpad.com/user/janedoe",
+      "message": "Username tidak ditemukan di Wattpad"
+    },
+    {
+      "platform": "Chess.com",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.chess.com/member/janedoe",
+      "message": "Username tidak ditemukan di Chess.com"
+    },
+    {
+      "platform": "Canva",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.canva.com/janedoe",
+      "message": "Username tidak ditemukan di Canva"
+    },
+    {
+      "platform": "Patreon",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.patreon.com/janedoe",
+      "message": "Username tidak ditemukan di Patreon"
+    },
+    {
+      "platform": "Kompasiana",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.kompasiana.com/janedoe",
+      "message": "Username tidak ditemukan di Kompasiana"
+    },
+    {
+      "platform": "Scribd",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.scribd.com/janedoe",
+      "message": "Username tidak ditemukan di Scribd"
+    },
+    {
+      "platform": "IDN Times",
+      "status": "Tidak Terdaftar",
+      "url": "https://community.idntimes.com/janedoe",
+      "message": "Username tidak ditemukan di IDN Times"
+    },
+    {
+      "platform": "Roblox",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.roblox.com/users/janedoe/profile",
+      "message": "Username tidak ditemukan di Roblox"
+    },
+    {
+      "platform": "Bukalapak",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.bukalapak.com/u/janedoe",
+      "message": "Username tidak ditemukan di Bukalapak"
+    },
+    {
+      "platform": "Indowebster",
+      "status": "Tidak Diketahui",
+      "url": "https://forum.indowebster.com/member.php?username=janedoe",
+      "message": "Gagal cek Indowebster: DNS resolution failed"
+    },
+    {
+      "platform": "BuyMeACoffee",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.buymeacoffee.com/janedoe",
+      "message": "Username tidak ditemukan di BuyMeACoffee"
+    },
+    {
+      "platform": "Badoo",
+      "status": "Terdaftar",
+      "url": "https://badoo.com/profile/janedoe",
+      "message": "Username ditemukan di Badoo"
+    },
+    {
+      "platform": "Kompas Forum",
+      "status": "Tidak Diketahui",
+      "url": "https://forum.kompas.com/member.php?username=janedoe",
+      "message": "Gagal cek Kompas Forum: DNS resolution failed"
+    },
+    {
+      "platform": "Shopee",
+      "status": "Tidak Terdaftar",
+      "url": "https://shopee.co.id/janedoe",
+      "message": "Username tidak ditemukan di Shopee"
+    },
+    {
+      "platform": "Replit",
+      "status": "Tidak Terdaftar",
+      "url": "https://replit.com/@janedoe",
+      "message": "Username tidak ditemukan di Replit"
+    },
+    {
+      "platform": "VK",
+      "status": "Tidak Terdaftar",
+      "url": "https://vk.com/janedoe",
+      "message": "Username tidak ditemukan di VK"
+    },
+    {
+      "platform": "Mastodon.id",
+      "status": "Terdaftar",
+      "url": "https://mastodon.id/@janedoe",
+      "message": "Username ditemukan di Mastodon.id"
+    },
+    {
+      "platform": "Brainly",
+      "status": "Tidak Diketahui",
+      "url": "https://brainly.co.id/profil/janedoe",
+      "message": "Status HTTP: 403"
+    },
+    {
+      "platform": "Jualo",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.jualo.com/user/janedoe",
+      "message": "Username tidak ditemukan di Jualo"
+    },
+    {
+      "platform": "Zenius",
+      "status": "Tidak Terdaftar",
+      "url": "https://zenius.net/profile/janedoe",
+      "message": "Username tidak ditemukan di Zenius"
+    },
+    {
+      "platform": "Dicoding",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.dicoding.com/users/janedoe",
+      "message": "Username tidak ditemukan di Dicoding"
+    },
+    {
+      "platform": "Ruangguru",
+      "status": "Tidak Terdaftar",
+      "url": "https://ruangguru.com/janedoe",
+      "message": "Username tidak ditemukan di Ruangguru"
+    },
+    {
+      "platform": "KasKus Lounge",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.kaskus.co.id/profile/janedoe",
+      "message": "Username tidak ditemukan di KasKus Lounge"
+    },
+    {
+      "platform": "Viva.co.id",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.viva.co.id/arsip/janedoe",
+      "message": "Username tidak ditemukan di Viva.co.id"
+    },
+    {
+      "platform": "TripAdvisor",
+      "status": "Tidak Terdaftar",
+      "url": "https://tripadvisor.com/members/janedoe",
+      "message": "Username tidak ditemukan di TripAdvisor"
+    },
+    {
+      "platform": "CodePolitan",
+      "status": "Terdaftar",
+      "url": "https://www.codepolitan.com/janedoe",
+      "message": "Username ditemukan di CodePolitan"
+    },
+    {
+      "platform": "Mamikos",
+      "status": "Tidak Terdaftar",
+      "url": "https://mamikos.com/profil/janedoe",
+      "message": "Username tidak ditemukan di Mamikos"
+    },
+    {
+      "platform": "Kumparan",
+      "status": "Tidak Terdaftar",
+      "url": "https://kumparan.com/janedoe",
+      "message": "Username tidak ditemukan di Kumparan"
+    },
+    {
+      "platform": "Goodreads",
+      "status": "Terdaftar",
+      "url": "https://www.goodreads.com/janedoe",
+      "message": "Username ditemukan di Goodreads"
+    },
+    {
+      "platform": "Sociabuzz",
+      "status": "Tidak Diketahui",
+      "url": "https://sociabuzz.com/janedoe",
+      "message": "Status HTTP: 403"
+    },
+    {
+      "platform": "Hipwee",
+      "status": "Tidak Terdaftar",
+      "url": "https://www.hipwee.com/author/janedoe",
+      "message": "Username tidak ditemukan di Hipwee"
+    },
+    {
+      "platform": "KaryaKarsa",
+      "status": "Tidak Terdaftar",
+      "url": "https://karyakarsa.com/janedoe",
+      "message": "Username tidak ditemukan di KaryaKarsa"
+    },
+    {
+      "platform": "Storial",
+      "status": "Tidak Diketahui",
+      "url": "https://storial.co/janedoe",
+      "message": "Gagal cek Storial: HTTPSConnectionPool(host='storial.co', port=443): Max retries exceeded with url: /janedoe (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x79071c35ff20>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+    },
+    {
+      "platform": "Qiscus",
+      "status": "Tidak Terdaftar",
+      "url": "https://qiscus.com/janedoe",
+      "message": "Username tidak ditemukan di Qiscus"
+    },
+    {
+      "platform": "Blogger",
+      "status": "Tidak Diketahui",
+      "url": "https://www.blogger.com/profile/janedoe",
+      "message": "Status HTTP: 400"
+    },
+    {
+      "platform": "Vidio",
+      "status": "Terdaftar",
+      "url": "https://www.vidio.com/users/janedoe",
+      "message": "Username ditemukan di Vidio"
+    },
+    {
+      "platform": "Tokopedia",
+      "status": "Terdaftar",
+      "url": "https://www.tokopedia.com/janedoe",
+      "message": "Username ditemukan di Tokopedia"
+    },
+    {
+      "platform": "IDN Media",
+      "status": "Tidak Terdaftar",
+      "url": "https://idn.media/user/janedoe",
+      "message": "Username tidak ditemukan di IDN Media"
+    },
+    {
+      "platform": "SoundCloud",
+      "status": "Tidak Terdaftar",
+      "url": "https://soundcloud.com/janedoe",
+      "message": "Username tidak ditemukan di SoundCloud"
+    },
+    {
+      "platform": "OLX",
+      "status": "Tidak Diketahui",
+      "url": "https://www.olx.co.id/profile/janedoe",
+      "message": "Gagal cek OLX: HTTPSConnectionPool(host='www.olx.co.id', port=443): Read timed out. (read timeout=5)"
+    },
+    {
+      "platform": "Komunitas Bukalapak",
+      "status": "Tidak Diketahui",
+      "url": "https://komunitas.bukalapak.com/u/janedoe",
+      "message": "Gagal cek Komunitas Bukalapak: HTTPSConnectionPool(host='komunitas.bukalapak.com', port=443): Read timed out. (read timeout=5)"
+    },
+    {
+      "platform": "Komikcast",
+      "status": "Tidak Diketahui",
+      "url": "https://komikcast.com/user/janedoe",
+      "message": "Gagal cek Komikcast: Terlalu banyak redirect"
+    }
+  ]
+}

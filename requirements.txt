@@ -1,0 +1,21 @@
+streamlit
+requests
+tqdm
+rich
+matplotlib
+pyyaml
+pandas
+openpyxl
+colorama
+fpdf
+PyPDF2
+markdown2
+validators
+python-dotenv
+# Untuk plugin/opsional:
+beautifulsoup4
+lxml
+selenium
+playwright
+httpx
+pytest
