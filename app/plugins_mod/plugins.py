@@ -1,4 +1,3 @@
-# ...existing code from plugins.py...
 def load_custom_platforms(custom_file=None):
     import json
     import os

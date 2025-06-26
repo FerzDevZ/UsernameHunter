@@ -1,0 +1,60 @@
+{
+  "ferzchills": {
+    "GitHub": {
+      "exists": false,
+      "url": "https://github.com/ferzchills",
+      "status": 200,
+      "note": "Konten error"
+    },
+    "Twitch": {
+      "exists": false,
+      "url": "https://www.twitch.tv/ferzchills",
+      "status": 200,
+      "note": "Konten error"
+    },
+    "YouTube": {
+      "exists": false,
+      "url": "https://youtube.com/@ferzchills"
+    },
+    "TikTok": {
+      "exists": false,
+      "url": "https://www.tiktok.com/@ferzchills",
+      "status": 200,
+      "note": "Konten error"
+    },
+    "Twitter": {
+      "exists": false,
+      "url": "https://twitter.com/ferzchills",
+      "status": 200,
+      "note": "Konten error"
+    },
+    "Reddit": {
+      "exists": true,
+      "url": "https://www.reddit.com/user/ferzchills"
+    },
+    "Instagram": {
+      "exists": false,
+      "url": "https://instagram.com/ferzchills",
+      "status": 200,
+      "note": "Konten error"
+    },
+    "Pinterest": {
+      "exists": false,
+      "url": "https://www.pinterest.com/ferzchills",
+      "status": 200,
+      "note": "Konten error"
+    },
+    "LinkedIn": {
+      "exists": null,
+      "url": "https://www.linkedin.com/in/ferzchills",
+      "status": 999,
+      "note": "Cek manual, kemungkinan rate limit/captcha/protected"
+    },
+    "Facebook": {
+      "exists": null,
+      "url": "https://facebook.com/ferzchills",
+      "status": 400,
+      "note": "Cek manual, kemungkinan rate limit/captcha/protected"
+    }
+  }
+}

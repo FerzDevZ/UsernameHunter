@@ -12,7 +12,6 @@ PyPDF2
 markdown2
 validators
 python-dotenv
-# Untuk plugin/opsional:
 beautifulsoup4
 lxml
 selenium

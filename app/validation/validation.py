@@ -1,4 +1,3 @@
-# ...existing code from validation.py...
 def is_valid_username(username, platform=None):
     import re
     if not (3 <= len(username) <= 32):

@@ -63,7 +63,6 @@ def check_username(username, max_workers=20, timeout=5, platforms=None, progress
     total = len(platforms)
     done = 0
     if progress_obj:
-        # progress_obj: rich TaskID for this username
         with ThreadPoolExecutor(max_workers=max_workers) as executor:
             future_to_platform = {
                 executor.submit(check_single_platform, platform, url_pattern, username, timeout, proxies): platform
@@ -202,12 +201,9 @@ def get_stats_from_results(results):
     stats = {'found': 0, 'not_found': 0, 'error': 0, 'total': 0}
     if not results:
         return stats
-    # Multi-username
     if isinstance(next(iter(results.values())), dict):
-        # Cek apakah dict dalamnya platform atau username
         sample = next(iter(results.values()))
         if isinstance(next(iter(sample.values())), dict):
-            # Multi-username
             for username, platforms in results.items():
                 for info in platforms.values():
                     stats['total'] += 1
@@ -218,7 +214,6 @@ def get_stats_from_results(results):
                     else:
                         stats['error'] += 1
         else:
-            # Single username
             for info in results.values():
                 stats['total'] += 1
                 if info.get('exists') is True:

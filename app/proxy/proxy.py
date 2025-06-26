@@ -1,4 +1,3 @@
-# ...existing code from proxy.py...
 def get_proxy_list(proxy_file=None):
     proxies = []
     import os

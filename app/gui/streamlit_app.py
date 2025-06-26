@@ -15,7 +15,6 @@ import string
 
 st.set_page_config(page_title="UsernameHunter GUI", layout="wide")
 
-# Sidebar: Language, About, Tips, FAQ
 lang = st.sidebar.selectbox("Language / Bahasa", ["id", "en"], index=0)
 if lang == "en":
     st.sidebar.title("About UsernameHunter")
@@ -44,25 +43,21 @@ else:
 
 st.title("🔎 UsernameHunter - Social Media Username Checker (GUI)")
 
-# Username generator function
 def generate_usernames(n=5, length=8):
     return [
         ''.join(random.choices(string.ascii_lowercase + string.digits, k=length))
         for _ in range(n)
     ]
 
-# Tabs for Results, History, Stats, FAQ/Tips
 main_tabs = st.tabs([
     "🔍 Hasil/Results", "🕑 Riwayat/History", "📊 Statistik/Stats", "❓ FAQ/Tips"
 ])
 
 with main_tabs[0]:
-    # Input username manual atau upload file
     usernames = st.text_area(
         "Masukkan username (satu per baris):" if lang=="id" else "Enter usernames (one per line):", height=120)
     usernames = [u.strip() for u in usernames.splitlines() if u.strip()]
 
-    # Username generator
     if st.button("Generate Random Usernames" if lang=="en" else "Buat Username Acak"):
         gen_names = generate_usernames()
         st.write(", ".join(gen_names))
@@ -76,29 +71,23 @@ with main_tabs[0]:
         usernames += file_usernames
         usernames = list(set(usernames))
 
-    # Pilih platform
     platforms = list(SOCIAL_PLATFORMS.keys())
     selected_platforms = st.multiselect(
         "Pilih platform (kosongkan untuk semua):" if lang=="id" else "Select platforms (empty for all):",
         platforms, default=platforms[:10])
 
-    # Advanced options
     with st.expander("Advanced Options"):
         timeout = st.number_input("Timeout (detik):" if lang=="id" else "Timeout (seconds):", min_value=1, max_value=60, value=5)
         max_workers = st.number_input("Jumlah thread paralel:" if lang=="id" else "Number of parallel threads:", min_value=1, max_value=100, value=20)
         filter_mode = st.radio("Filter hasil:" if lang=="id" else "Result filter:", ["all", "only_found", "only_not_found", "show_failed"], index=0)
         output_format = st.selectbox("Format export hasil:", ["json", "csv", "txt", "md", "html", "pdf"], index=0)
-        # Proxy, custom platforms, plugin dir (upload path/file)
         proxy_file = st.file_uploader("Proxy file (.txt):", type=["txt"])
         custom_platforms = st.file_uploader("Custom platforms (.json):", type=["json"])
-        # Plugin dir: input path (manual)
         plugin_dir = st.text_input("Plugin directory (optional):", "")
 
-    # Jalankan pencarian
     if st.button("Cek Username" if lang=="id" else "Check Username") and usernames:
         start_time = time.time()
         st.info("Memulai pencarian... Mohon tunggu." if lang=="id" else "Searching... Please wait.")
-        # Simpan proxy/temp file jika diupload
         proxy_path = None
         if proxy_file:
             proxy_path = "proxy_gui.txt"
@@ -109,7 +98,6 @@ with main_tabs[0]:
             custom_path = "custom_gui.json"
             with open(custom_path, "w", encoding="utf-8") as f:
                 f.write(custom_platforms.read().decode("utf-8"))
-        # Build platform dict
         from platforms import SOCIAL_PLATFORMS
         platforms_dict = SOCIAL_PLATFORMS.copy()
         if custom_path:
@@ -120,7 +108,6 @@ with main_tabs[0]:
             platforms_dict.update(load_plugin_platforms(plugin_dir))
         if selected_platforms:
             platforms_dict = {k: v for k, v in platforms_dict.items() if k in selected_platforms}
-        # Run search
         results_all = {}
         for username in usernames:
             valid, reason = is_valid_username(username)
@@ -155,20 +142,16 @@ with main_tabs[0]:
             st.success("Pencarian selesai!" if lang=="id" else "Search finished!")
             exec_time = time.time() - start_time
             st.info(f"Waktu eksekusi: {exec_time:.2f} detik" if lang=="id" else f"Execution time: {exec_time:.2f} seconds")
-            # Export hasil
             out_path = f"hasil_gui.{output_format}"
             export_results(results_all, out_path)
             with open(out_path, "rb") as f:
                 st.download_button(f"Download hasil_gui.{output_format}", f, file_name=f"hasil_gui.{output_format}")
-            # Preview hasil export (JSON/CSV/TXT/MD/HTML)
             if output_format in ["json", "txt", "md", "html"]:
                 with open(out_path, "r", encoding="utf-8") as f:
                     st.code(f.read(), language=output_format)
-            # Statistik
             stats = get_stats_from_results({u: r for u, r in results_all.items()})
             st.write("## Statistik Ringkasan" if lang=="id" else "## Stats Summary")
             st.json(stats)
-            # Chart Pie & Bar
             try:
                 import matplotlib.pyplot as plt
                 import matplotlib
@@ -190,12 +173,10 @@ with main_tabs[0]:
     else:
         st.info("Masukkan username dan klik 'Cek Username'." if lang=="id" else "Enter username(s) and click 'Check Username'.")
 
-# Tombol reset
 if st.button("Reset Form" if lang=="id" else "Reset Form"):
     st.experimental_rerun()
 
 with main_tabs[1]:
-    # History (riwayat)
     history_path = Path("history.jsonl")
     if history_path.exists():
         lines = history_path.read_text(encoding="utf-8").splitlines()
@@ -226,7 +207,6 @@ with main_tabs[3]:
     - See README.md for full info.
     """)
 
-# Add dark mode toggle in sidebar
 if 'dark_mode' not in st.session_state:
     st.session_state['dark_mode'] = False
 if st.sidebar.checkbox('🌙 Dark Mode', value=st.session_state['dark_mode']):
@@ -237,7 +217,6 @@ if st.sidebar.checkbox('🌙 Dark Mode', value=st.session_state['dark_mode']):
 else:
     st.session_state['dark_mode'] = False
 
-# Monitor/auto-refresh option
 monitor = st.sidebar.checkbox('🔄 Monitor/Auto-refresh', value=False)
 interval = st.sidebar.number_input('Interval (detik)', min_value=5, max_value=3600, value=30) if monitor else None
 
@@ -245,7 +224,6 @@ if monitor and usernames:
     import time
     st.info('Monitoring aktif. Pencarian akan di-refresh otomatis.')
     while True:
-        # ...existing code for search and display...
         st.info(f'Refresh dalam {interval} detik...')
         time.sleep(interval)
         st.experimental_rerun()

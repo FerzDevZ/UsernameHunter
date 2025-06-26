@@ -201,7 +201,6 @@ def load_config(config_file):
         return {}
     config_path = Path(config_file)
     if not config_path.is_file():
-        # Buat file config default jika belum ada
         with open(config_path, 'w', encoding='utf-8') as f:
             json.dump(default_config, f, indent=2)
         print(f"[yellow]File konfigurasi '{config_file}' tidak ditemukan. File default telah dibuat![/yellow]")
@@ -218,7 +217,6 @@ def load_config(config_file):
         sys.exit(1)
 
 def print_welcome(lang='id'):
-    # Contoh penggunaan multi-bahasa pada output
     if lang == 'en':
         WELCOME = "Welcome to UsernameHunter! Check username availability on hundreds of global & Indonesian platforms. Use --help to see all CLI options."
         TIPS = "Tip: Try --list-platforms to see all supported platforms!"
@@ -252,7 +250,6 @@ def main(lang, desc, epilog, args_help):
         formatter_class=CustomFormatter,
         epilog=epilog
     )
-    # args_help sudah diterima sebagai argumen
     parser.add_argument('--author', action='store_true', help=args_help['author'])
     parser.add_argument('--version', action='store_true', help=args_help['version'])
     parser.add_argument('--list-platforms', action='store_true', help=args_help['list_platforms'])
@@ -285,7 +282,6 @@ def main(lang, desc, epilog, args_help):
     args = parser.parse_args()
     lang = args.lang
 
-    # Jalankan GUI jika diminta
     if getattr(args, 'gui', False):
         try:
             import streamlit
@@ -301,12 +297,10 @@ def main(lang, desc, epilog, args_help):
                 print("[red]streamlit dan tkinter tidak tersedia. Install salah satu untuk GUI.[/red]")
         return
 
-    # Jalankan fitur yang tidak butuh username lebih dulu
     if args.history:
         print_history()
         return
     if args.stats and not (args.username or args.username_file or (config.get('usernames') or config.get('username_file'))):
-        # Tampilkan statistik dari riwayat terakhir
         path = Path('history.jsonl')
         if not path.exists():
             print('[yellow]Belum ada riwayat pencarian.[/yellow]')
@@ -321,17 +315,14 @@ def main(lang, desc, epilog, args_help):
             print_stats_summary(stats, silent=args.silent, logfile=args.logfile)
         return
 
-    # Load config if provided
     config = load_config(args.config) if args.config else {}
 
-    # Merge config with CLI args (CLI args take precedence)
     usernames = args.username or config.get('usernames', [])
     if args.username_file or config.get('username_file'):
         username_file = args.username_file or config.get('username_file')
         with open(username_file) as f:
             usernames += [u.strip() for u in f if u.strip()]
 
-    # Load platforms
     platforms = SOCIAL_PLATFORMS.copy()
     if args.custom_platforms or config.get('custom_platforms'):
         platforms.update(load_custom_platforms(args.custom_platforms or config.get('custom_platforms')))
@@ -390,7 +381,6 @@ def main(lang, desc, epilog, args_help):
                     message = f"Tidak dapat menentukan status di {platform}"
             line = f"[{platform}] {status}\n  URL: {info['url']}\n  {message}\n"
             print(line)
-            # Copy-to-clipboard and open-link buttons (CLI)
             if pyperclip:
                 print(f"  [C] Copy URL to clipboard")
             print(f"  [O] Open URL in browser")
@@ -408,13 +398,10 @@ def main(lang, desc, epilog, args_help):
                 'message': message
             })
         all_results[username] = output_lines
-        # Simpan riwayat
         save_history(filtered)
-        # Tampilkan statistik jika diminta
         if args.stats:
             stats = get_stats_from_results(filtered)
             print_stats_summary(stats, silent=args.silent, logfile=args.logfile)
-    # Export hasil jika diminta
     if args.output or config.get('output'):
         export_results(all_results, args.output or config.get('output'))
 
@@ -439,7 +426,6 @@ def main(lang, desc, epilog, args_help):
         return
     if args.wizard:
         print("[bold magenta]Mode Wizard Interaktif belum diimplementasikan penuh. Akan hadir di update berikutnya![/bold magenta]")
-        # TODO: Implementasi wizard interaktif
         return
     if args.chart:
         try:
@@ -448,7 +434,6 @@ def main(lang, desc, epilog, args_help):
         except ImportError:
             print("[red]matplotlib belum terinstall. Jalankan: pip install matplotlib[/red]")
             return
-        # Ambil statistik dari riwayat terakhir
         path = Path('history.jsonl')
         if not path.exists():
             print('[yellow]Belum ada riwayat pencarian untuk chart.[/yellow]')

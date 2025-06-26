@@ -6,8 +6,19 @@
 [![Issues](https://img.shields.io/github/issues/FerzDevZ/UsernameHunter)](https://github.com/FerzDevZ/UsernameHunter/issues)
 [![Stars](https://img.shields.io/github/stars/FerzDevZ/UsernameHunter?style=social)](https://github.com/FerzDevZ/UsernameHunter)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/FerzDevZ/UsernameHunter/python-app.yml?branch=main)](https://github.com/FerzDevZ/UsernameHunter/actions)
+[![Streamlit App](https://img.shields.io/badge/Live%20Demo-Streamlit-ff4b4b?logo=streamlit&logoColor=white)](https://usernamehunter.streamlit.app/)
 
 > **UsernameHunter** — Advanced & Modern Username Checker for 200+ Social Media & Viral Sites (Global & Indonesia) 🚀
+
+---
+
+## 🌐 Live Demo
+
+Coba langsung versi web UsernameHunter (tanpa install, gratis!):
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://usernamehunter.streamlit.app/)
+
+[https://usernamehunter.streamlit.app/](https://usernamehunter.streamlit.app/)
 
 ---
 
@@ -181,6 +192,20 @@ app/
 > - Pastikan semua dependency sudah di `requirements.txt`.
 > - File hasil export/history di cloud hanya sementara.
 > - Untuk private repo, hubungkan GitHub dan izinkan akses.
+
+---
+
+## 💡 Tips Agar Scraping Lebih Sukses & Minim Error
+
+- Gunakan **proxy premium** (bukan gratisan/cloud) dan aktifkan rotasi proxy otomatis.
+- Aktifkan **random User-Agent** di setiap request.
+- Tambahkan **delay/jitter acak** antar request (misal 1-3 detik).
+- Jika sering rate limit/captcha, aktifkan mode **headless browser** (Selenium/Playwright) dan integrasi anti-captcha API.
+- Gunakan **timeout & retry** yang cukup (misal timeout 10 detik, retry 2-3x).
+- Jalankan tools di **VPS/PC lokal** (bukan cloud gratisan) untuk hasil maksimal.
+- Simpan log error detail untuk troubleshooting.
+- Update daftar platform secara berkala.
+- Untuk scraping masif, gunakan mode **silent/log only** dan monitoring otomatis (cron/scheduler).
 
 ---
 
